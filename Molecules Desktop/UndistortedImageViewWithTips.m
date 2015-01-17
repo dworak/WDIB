@@ -234,11 +234,11 @@ static const float cameraOffset = 20;
     [[self openGLContext] makeCurrentContext];
     float screenWidth = (float)[_window frame].size.width;
     float screenHeight = (float)[_window frame].size.height;
-    glViewport(0,0,screenWidth/2,screenHeight/3);
+    glViewport(0,0,screenWidth/2,screenHeight/2);
     if (_ID == 0) {
-        [super setFrame:NSMakeRect(0, 0, screenWidth/2, screenHeight/3)];
+        [super setFrame:NSMakeRect(0, 0, screenWidth/2, screenHeight/2)];
     } else{
-        [super setFrame:NSMakeRect(screenWidth/2, 0, screenWidth/2, screenHeight/3)];
+        [super setFrame:NSMakeRect(screenWidth/2, 0, screenWidth/2, screenHeight/2)];
     }
 }
 
