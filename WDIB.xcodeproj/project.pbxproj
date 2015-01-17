@@ -137,7 +137,7 @@
 		BC983D0F1749C3CA00A8A581 /* LDAtomColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDAtomColorView.m; sourceTree = "<group>"; };
 		BC983D1F17553BE300A8A581 /* LDBlackSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBlackSplitView.h; sourceTree = "<group>"; };
 		BC983D2017553BE300A8A581 /* LDBlackSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBlackSplitView.m; sourceTree = "<group>"; };
-		BCBF618D16E83DCF00E2784A /* Molecules_LM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Molecules_LM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCBF618D16E83DCF00E2784A /* WDIB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WDIB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCBF619016E83DCF00E2784A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		BCBF619316E83DCF00E2784A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		BCBF619416E83DCF00E2784A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -288,7 +288,7 @@
 		BCBF618416E83DCF00E2784A = {
 			isa = PBXGroup;
 			children = (
-				BCBF619616E83DCF00E2784A /* Molecules */,
+				BCBF619616E83DCF00E2784A /* WDIB */,
 				BCBF618F16E83DCF00E2784A /* Frameworks */,
 				BCBF618E16E83DCF00E2784A /* Products */,
 			);
@@ -297,7 +297,7 @@
 		BCBF618E16E83DCF00E2784A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BCBF618D16E83DCF00E2784A /* Molecules_LM.app */,
+				BCBF618D16E83DCF00E2784A /* WDIB.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -325,7 +325,7 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		BCBF619616E83DCF00E2784A /* Molecules */ = {
+		BCBF619616E83DCF00E2784A /* WDIB */ = {
 			isa = PBXGroup;
 			children = (
 				FB40E09E1A69D49700E6D448 /* Utils */,
@@ -340,8 +340,7 @@
 				BCFE5DB31707B78A004C4EF3 /* Help */,
 				BCBF619716E83DCF00E2784A /* Supporting Files */,
 			);
-			name = Molecules;
-			path = "Molecules Desktop";
+			path = WDIB;
 			sourceTree = "<group>";
 		};
 		BCBF619716E83DCF00E2784A /* Supporting Files */ = {
@@ -527,9 +526,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BCBF618C16E83DCF00E2784A /* Molecules_LM */ = {
+		BCBF618C16E83DCF00E2784A /* WDIB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BCBF61AD16E83DCF00E2784A /* Build configuration list for PBXNativeTarget "Molecules_LM" */;
+			buildConfigurationList = BCBF61AD16E83DCF00E2784A /* Build configuration list for PBXNativeTarget "WDIB" */;
 			buildPhases = (
 				BCBF618916E83DCF00E2784A /* Sources */,
 				BCBF618A16E83DCF00E2784A /* Frameworks */,
@@ -540,9 +539,9 @@
 			);
 			dependencies = (
 			);
-			name = Molecules_LM;
-			productName = "Molecules Desktop";
-			productReference = BCBF618D16E83DCF00E2784A /* Molecules_LM.app */;
+			name = WDIB;
+			productName = WDIB;
+			productReference = BCBF618D16E83DCF00E2784A /* WDIB.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -567,7 +566,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BCBF618C16E83DCF00E2784A /* Molecules_LM */,
+				BCBF618C16E83DCF00E2784A /* WDIB */,
 			);
 		};
 /* End PBXProject section */
@@ -797,14 +796,14 @@
 				CODE_SIGN_ENTITLEMENTS = Molecules.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Molecules Desktop/WDIB-Prefix.pch";
-				INFOPLIST_FILE = "Molecules Desktop/WDIB-Info.plist";
+				GCC_PREFIX_HEADER = "WDIB/WDIB-Prefix.pch";
+				INFOPLIST_FILE = "WDIB/WDIB-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../LeapSDK/lib\"",
 					"\"$(SRCROOT)\"",
 				);
-				PRODUCT_NAME = Molecules_LM;
+				PRODUCT_NAME = WDIB;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -815,14 +814,14 @@
 				CODE_SIGN_ENTITLEMENTS = Molecules.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Molecules Desktop/WDIB-Prefix.pch";
-				INFOPLIST_FILE = "Molecules Desktop/WDIB-Info.plist";
+				GCC_PREFIX_HEADER = "WDIB/WDIB-Prefix.pch";
+				INFOPLIST_FILE = "WDIB/WDIB-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../LeapSDK/lib\"",
 					"\"$(SRCROOT)\"",
 				);
-				PRODUCT_NAME = Molecules_LM;
+				PRODUCT_NAME = WDIB;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -839,7 +838,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BCBF61AD16E83DCF00E2784A /* Build configuration list for PBXNativeTarget "Molecules_LM" */ = {
+		BCBF61AD16E83DCF00E2784A /* Build configuration list for PBXNativeTarget "WDIB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BCBF61AE16E83DCF00E2784A /* Debug */,
