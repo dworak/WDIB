@@ -1,0 +1,854 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC0E8B1B1757B7D200D8511A /* LeapMotionConnected.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BC0E8B191757B7D200D8511A /* LeapMotionConnected.pdf */; };
+		BC0E8B1C1757B7D200D8511A /* LeapMotionDisconnected.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BC0E8B1A1757B7D200D8511A /* LeapMotionDisconnected.pdf */; };
+		BC3D5DC116EF82DC004F2E7B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3D5DC016EF82DC004F2E7B /* libz.dylib */; };
+		BC3D5DC216EF8342004F2E7B /* LeapObjectiveC.mm in Sources */ = {isa = PBXBuildFile; fileRef = BCCF951216EF7BAB00871775 /* LeapObjectiveC.mm */; };
+		BC56CFE7170149FD00CA05BE /* LDMoleculeOverlayWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC56CFE5170149FD00CA05BE /* LDMoleculeOverlayWindowController.m */; };
+		BC56CFE8170149FD00CA05BE /* LDMoleculeOverlayWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC56CFE6170149FD00CA05BE /* LDMoleculeOverlayWindowController.xib */; };
+		BC56CFEB170150B300CA05BE /* LDSTransparentWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BC56CFEA170150B300CA05BE /* LDSTransparentWindow.m */; };
+		BC56CFF21702A12A00CA05BE /* LDMolecule+XYZ.m in Sources */ = {isa = PBXBuildFile; fileRef = BC56CFF11702A12A00CA05BE /* LDMolecule+XYZ.m */; };
+		BC67F41A171F98B100B5BF5E /* LDDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC67F419171F98B100B5BF5E /* LDDocumentController.m */; };
+		BC983CF317498EDF00A8A581 /* Cholesterol.pdb in Resources */ = {isa = PBXBuildFile; fileRef = BC983CEA17498EDF00A8A581 /* Cholesterol.pdb */; };
+		BC983CF417498EDF00A8A581 /* CholesterolImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BC983CEB17498EDF00A8A581 /* CholesterolImage.png */; };
+		BC983CF517498EDF00A8A581 /* CholesterolImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC983CEC17498EDF00A8A581 /* CholesterolImage@2x.png */; };
+		BC983CF617498EDF00A8A581 /* Heme.sdf in Resources */ = {isa = PBXBuildFile; fileRef = BC983CED17498EDF00A8A581 /* Heme.sdf */; };
+		BC983CF717498EDF00A8A581 /* HemeImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BC983CEE17498EDF00A8A581 /* HemeImage.png */; };
+		BC983CF817498EDF00A8A581 /* HemeImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC983CEF17498EDF00A8A581 /* HemeImage@2x.png */; };
+		BC983CF917498EDF00A8A581 /* TheoreticalBearing.pdb in Resources */ = {isa = PBXBuildFile; fileRef = BC983CF017498EDF00A8A581 /* TheoreticalBearing.pdb */; };
+		BC983CFA17498EDF00A8A581 /* TheoreticalBearingImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BC983CF117498EDF00A8A581 /* TheoreticalBearingImage.png */; };
+		BC983CFB17498EDF00A8A581 /* TheoreticalBearingImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC983CF217498EDF00A8A581 /* TheoreticalBearingImage@2x.png */; };
+		BC983D0217498F2900A8A581 /* Insulin.pdb in Resources */ = {isa = PBXBuildFile; fileRef = BC983CFC17498F2900A8A581 /* Insulin.pdb */; };
+		BC983D0317498F2900A8A581 /* InsulinImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BC983CFD17498F2900A8A581 /* InsulinImage.png */; };
+		BC983D0417498F2900A8A581 /* InsulinImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC983CFE17498F2900A8A581 /* InsulinImage@2x.png */; };
+		BC983D0517498F2900A8A581 /* Nanotube.pdb in Resources */ = {isa = PBXBuildFile; fileRef = BC983CFF17498F2900A8A581 /* Nanotube.pdb */; };
+		BC983D0617498F2900A8A581 /* NanotubeImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BC983D0017498F2900A8A581 /* NanotubeImage.png */; };
+		BC983D0717498F2900A8A581 /* NanotubeImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC983D0117498F2900A8A581 /* NanotubeImage@2x.png */; };
+		BC983D101749C3CA00A8A581 /* LDAtomColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC983D0F1749C3CA00A8A581 /* LDAtomColorView.m */; };
+		BC983D2117553BE400A8A581 /* LDBlackSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC983D2017553BE300A8A581 /* LDBlackSplitView.m */; };
+		BCBF619116E83DCF00E2784A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCBF619016E83DCF00E2784A /* Cocoa.framework */; };
+		BCBF619B16E83DCF00E2784A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCBF619916E83DCF00E2784A /* InfoPlist.strings */; };
+		BCBF619D16E83DCF00E2784A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBF619C16E83DCF00E2784A /* main.m */; };
+		BCBF61A416E83DCF00E2784A /* LDMoleculeWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBF61A316E83DCF00E2784A /* LDMoleculeWindowController.m */; };
+		BCBF61A716E83DCF00E2784A /* LDMoleculeWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCBF61A516E83DCF00E2784A /* LDMoleculeWindowController.xib */; };
+		BCBF61AA16E83DCF00E2784A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCBF61A816E83DCF00E2784A /* MainMenu.xib */; };
+		BCBF61B216E83FBF00E2784A /* LDMoleculeGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBF61B116E83FBF00E2784A /* LDMoleculeGLView.m */; };
+		BCC23A4016F94FCF003EA181 /* LDApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC23A3F16F94FCF003EA181 /* LDApplicationDelegate.m */; };
+		BCCF94B516ED4BE400871775 /* LDMolecule.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCF94B016ED4BE400871775 /* LDMolecule.m */; };
+		BCCF94B616ED4BE400871775 /* LDMolecule+PDB.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCF94B216ED4BE400871775 /* LDMolecule+PDB.m */; };
+		BCCF94B716ED4BE400871775 /* LDMolecule+SDF.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCF94B416ED4BE400871775 /* LDMolecule+SDF.m */; };
+		BCCF94C816ED603900871775 /* NSData+Gzip.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCF94C716ED603900871775 /* NSData+Gzip.m */; };
+		BCCF94CB16ED609D00871775 /* VCTitleCase.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCF94CA16ED609C00871775 /* VCTitleCase.m */; };
+		BCCF94CF16ED6BEB00871775 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCF94CE16ED6BEB00871775 /* OpenGL.framework */; };
+		BCCF94D116ED6BFB00871775 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCF94D016ED6BFB00871775 /* QuartzCore.framework */; };
+		BCCF94E416ED7A9100871775 /* CylinderAmbientOcclusion.fsh in Resources */ = {isa = PBXBuildFile; fileRef = BCCF94D216ED7A9100871775 /* CylinderAmbientOcclusion.fsh */; };
+		BCCF94E516ED7A9100871775 /* CylinderAmbientOcclusion.vsh in Resources */ = {isa = PBXBuildFile; fileRef = BCCF94D316ED7A9100871775 /* CylinderAmbientOcclusion.vsh */; };
+		BCCF94E616ED7A9100871775 /* CylinderDepth.fsh in Resources */ = {isa = PBXBuildFile; fileRef = BCCF94D416ED7A9100871775 /* CylinderDepth.fsh */; };
+		BCCF94E716ED7A9100871775 /* CylinderDepth.vsh in Resources */ = {isa = PBXBuildFile; fileRef = BCCF94D516ED7A9100871775 /* CylinderDepth.vsh */; };
+		BCCF94E816ED7A9100871775 /* CylinderRaytracing.fsh in Resources */ = {isa = PBXBuildFile; fileRef = BCCF94D616ED7A9100871775 /* CylinderRaytracing.fsh */; };
+		BCCF94E916ED7A9100871775 /* CylinderRaytracing.vsh in Resources */ = {isa = PBXBuildFile; fileRef = BCCF94D716ED7A9100871775 /* CylinderRaytracing.vsh */; };
+		BCCF94EA16ED7A9100871775 /* PlainDisplay.fsh in Resources */ = {isa = PBXBuildFile; fileRef = BCCF94D816ED7A9100871775 /* PlainDisplay.fsh */; };
+		BCCF94EB16ED7A9100871775 /* PlainDisplay.vsh in Resources */ = {isa = PBXBuildFile; fileRef = BCCF94D916ED7A9100871775 /* PlainDisplay.vsh */; };
+		BCCF94EC16ED7A9100871775 /* SphereAmbientOcclusion.fsh in Resources */ = {isa = PBXBuildFile; fileRef = BCCF94DA16ED7A9100871775 /* SphereAmbientOcclusion.fsh */; };
+		BCCF94ED16ED7A9100871775 /* SphereAmbientOcclusion.vsh in Resources */ = {isa = PBXBuildFile; fileRef = BCCF94DB16ED7A9100871775 /* SphereAmbientOcclusion.vsh */; };
+		BCCF94EE16ED7A9100871775 /* SphereAOLookup.fsh in Resources */ = {isa = PBXBuildFile; fileRef = BCCF94DC16ED7A9100871775 /* SphereAOLookup.fsh */; };
+		BCCF94EF16ED7A9100871775 /* SphereAOLookup.vsh in Resources */ = {isa = PBXBuildFile; fileRef = BCCF94DD16ED7A9100871775 /* SphereAOLookup.vsh */; };
+		BCCF94F016ED7A9100871775 /* SphereDepth.fsh in Resources */ = {isa = PBXBuildFile; fileRef = BCCF94DE16ED7A9100871775 /* SphereDepth.fsh */; };
+		BCCF94F116ED7A9100871775 /* SphereDepth.vsh in Resources */ = {isa = PBXBuildFile; fileRef = BCCF94DF16ED7A9100871775 /* SphereDepth.vsh */; };
+		BCCF94F216ED7A9100871775 /* SphereDepthWrite.fsh in Resources */ = {isa = PBXBuildFile; fileRef = BCCF94E016ED7A9100871775 /* SphereDepthWrite.fsh */; };
+		BCCF94F316ED7A9100871775 /* SphereDepthWrite.vsh in Resources */ = {isa = PBXBuildFile; fileRef = BCCF94E116ED7A9100871775 /* SphereDepthWrite.vsh */; };
+		BCCF94F416ED7A9100871775 /* SphereRaytracing.fsh in Resources */ = {isa = PBXBuildFile; fileRef = BCCF94E216ED7A9100871775 /* SphereRaytracing.fsh */; };
+		BCCF94F516ED7A9100871775 /* SphereRaytracing.vsh in Resources */ = {isa = PBXBuildFile; fileRef = BCCF94E316ED7A9100871775 /* SphereRaytracing.vsh */; };
+		BCCF94FC16EE82E700871775 /* LDOpenGLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCF94FB16EE82E700871775 /* LDOpenGLRenderer.m */; };
+		BCCF94FF16EE839200871775 /* GLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCF94FE16EE839200871775 /* GLProgram.m */; };
+		BCCF950316EEC7FA00871775 /* MoleculesDesktop.iconset in Resources */ = {isa = PBXBuildFile; fileRef = BCCF950216EEC7FA00871775 /* MoleculesDesktop.iconset */; };
+		BCCF951516EF7D1800871775 /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCF951416EF7D1700871775 /* libLeap.dylib */; };
+		BCCF951616EF7DF600871775 /* libLeap.dylib in Resources */ = {isa = PBXBuildFile; fileRef = BCCF951416EF7D1700871775 /* libLeap.dylib */; };
+		BCDBDE371718C1F100C4C2FA /* CaffeineImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBDE331718C1F100C4C2FA /* CaffeineImage.png */; };
+		BCDBDE381718C1F100C4C2FA /* DNAImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBDE341718C1F100C4C2FA /* DNAImage.png */; };
+		BCDBDE391718C1F100C4C2FA /* PumpImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBDE351718C1F100C4C2FA /* PumpImage.png */; };
+		BCDBDE3A1718C1F100C4C2FA /* TRNAImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBDE361718C1F100C4C2FA /* TRNAImage.png */; };
+		BCDBDE421718C62B00C4C2FA /* Caffeine.pdb in Resources */ = {isa = PBXBuildFile; fileRef = BCDBDE3B1718C62B00C4C2FA /* Caffeine.pdb */; };
+		BCDBDE431718C62B00C4C2FA /* CaffeineImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBDE3C1718C62B00C4C2FA /* CaffeineImage@2x.png */; };
+		BCDBDE441718C62B00C4C2FA /* DNAImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBDE3D1718C62B00C4C2FA /* DNAImage@2x.png */; };
+		BCDBDE451718C62B00C4C2FA /* PumpImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBDE3E1718C62B00C4C2FA /* PumpImage@2x.png */; };
+		BCDBDE461718C62B00C4C2FA /* TheoreticalAtomicPump.pdb in Resources */ = {isa = PBXBuildFile; fileRef = BCDBDE3F1718C62B00C4C2FA /* TheoreticalAtomicPump.pdb */; };
+		BCDBDE471718C62B00C4C2FA /* TransferRNA.pdb in Resources */ = {isa = PBXBuildFile; fileRef = BCDBDE401718C62B00C4C2FA /* TransferRNA.pdb */; };
+		BCDBDE481718C62B00C4C2FA /* TRNAImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBDE411718C62B00C4C2FA /* TRNAImage@2x.png */; };
+		BCDBDE4B1718FB5700C4C2FA /* RoundedView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDBDE4A1718FB5700C4C2FA /* RoundedView.m */; };
+		BCDBDE4E171A411F00C4C2FA /* TransparentWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDBDE4D171A411F00C4C2FA /* TransparentWindow.m */; };
+		BCDBDE50171B84ED00C4C2FA /* TutorialRotation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BCDBDE4F171B84ED00C4C2FA /* TutorialRotation.pdf */; };
+		BCDBDE52171B871E00C4C2FA /* TutorialScaling.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BCDBDE51171B871E00C4C2FA /* TutorialScaling.pdf */; };
+		BCDBDE54171B880600C4C2FA /* TutorialTranslation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BCDBDE53171B880600C4C2FA /* TutorialTranslation.pdf */; };
+		BCDBDE56171B890600C4C2FA /* TutorialLocking.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BCDBDE55171B890600C4C2FA /* TutorialLocking.pdf */; };
+		BCDBDE58171CD6FC00C4C2FA /* TutorialMouseRotation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BCDBDE57171CD6FC00C4C2FA /* TutorialMouseRotation.pdf */; };
+		BCDBDE5A171CDD8300C4C2FA /* TutorialMouseScaling.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BCDBDE59171CDD8300C4C2FA /* TutorialMouseScaling.pdf */; };
+		BCDBDE5C171CE12E00C4C2FA /* TutorialMouseTranslation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BCDBDE5B171CE12E00C4C2FA /* TutorialMouseTranslation.pdf */; };
+		BCE7796116F9453500FFB749 /* LDPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE7795F16F9453500FFB749 /* LDPreferencesWindowController.m */; };
+		BCE7796216F9453500FFB749 /* LDPreferencesWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE7796016F9453500FFB749 /* LDPreferencesWindowController.xib */; };
+		BCFE5DAB1703D0D1004C4EF3 /* MoleculesDocumentIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = BCFE5DAA1703D0D1004C4EF3 /* MoleculesDocumentIcon.icns */; };
+		BCFE5DBF1708CF18004C4EF3 /* DNA.pdb in Resources */ = {isa = PBXBuildFile; fileRef = BCFE5DBE1708CF18004C4EF3 /* DNA.pdb */; };
+		FB40E09D1A69D47200E6D448 /* UndistortedImageViewWithTips.m in Sources */ = {isa = PBXBuildFile; fileRef = FB40E09C1A69D47200E6D448 /* UndistortedImageViewWithTips.m */; };
+		FB40E0A11A69D4A500E6D448 /* OpenGLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FB40E0A01A69D4A500E6D448 /* OpenGLUtil.m */; };
+		FB40E0A71A69D87F00E6D448 /* fragmentImage.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FB40E0A21A69D87F00E6D448 /* fragmentImage.fsh */; };
+		FB40E0A81A69D87F00E6D448 /* fragmentTips.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FB40E0A31A69D87F00E6D448 /* fragmentTips.fsh */; };
+		FB40E0A91A69D87F00E6D448 /* geometryTips.gsh in Resources */ = {isa = PBXBuildFile; fileRef = FB40E0A41A69D87F00E6D448 /* geometryTips.gsh */; };
+		FB40E0AA1A69D87F00E6D448 /* vertexImage.vsh in Resources */ = {isa = PBXBuildFile; fileRef = FB40E0A51A69D87F00E6D448 /* vertexImage.vsh */; };
+		FB40E0AB1A69D87F00E6D448 /* vertexTips.vsh in Resources */ = {isa = PBXBuildFile; fileRef = FB40E0A61A69D87F00E6D448 /* vertexTips.vsh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC0E8B191757B7D200D8511A /* LeapMotionConnected.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LeapMotionConnected.pdf; sourceTree = "<group>"; };
+		BC0E8B1A1757B7D200D8511A /* LeapMotionDisconnected.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LeapMotionDisconnected.pdf; sourceTree = "<group>"; };
+		BC3D5DC016EF82DC004F2E7B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		BC56CFE31701442C00CA05BE /* Molecules.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Molecules.entitlements; sourceTree = SOURCE_ROOT; };
+		BC56CFE4170149FD00CA05BE /* LDMoleculeOverlayWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDMoleculeOverlayWindowController.h; sourceTree = "<group>"; };
+		BC56CFE5170149FD00CA05BE /* LDMoleculeOverlayWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMoleculeOverlayWindowController.m; sourceTree = "<group>"; };
+		BC56CFE6170149FD00CA05BE /* LDMoleculeOverlayWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDMoleculeOverlayWindowController.xib; sourceTree = "<group>"; };
+		BC56CFE9170150B300CA05BE /* LDTransparentWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDTransparentWindow.h; sourceTree = "<group>"; };
+		BC56CFEA170150B300CA05BE /* LDSTransparentWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDSTransparentWindow.m; sourceTree = "<group>"; };
+		BC56CFF01702A12900CA05BE /* LDMolecule+XYZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LDMolecule+XYZ.h"; sourceTree = "<group>"; };
+		BC56CFF11702A12A00CA05BE /* LDMolecule+XYZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LDMolecule+XYZ.m"; sourceTree = "<group>"; };
+		BC67F418171F98B100B5BF5E /* LDDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDocumentController.h; sourceTree = "<group>"; };
+		BC67F419171F98B100B5BF5E /* LDDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDocumentController.m; sourceTree = "<group>"; };
+		BC983CEA17498EDF00A8A581 /* Cholesterol.pdb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cholesterol.pdb; sourceTree = "<group>"; };
+		BC983CEB17498EDF00A8A581 /* CholesterolImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CholesterolImage.png; sourceTree = "<group>"; };
+		BC983CEC17498EDF00A8A581 /* CholesterolImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CholesterolImage@2x.png"; sourceTree = "<group>"; };
+		BC983CED17498EDF00A8A581 /* Heme.sdf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Heme.sdf; sourceTree = "<group>"; };
+		BC983CEE17498EDF00A8A581 /* HemeImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HemeImage.png; sourceTree = "<group>"; };
+		BC983CEF17498EDF00A8A581 /* HemeImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HemeImage@2x.png"; sourceTree = "<group>"; };
+		BC983CF017498EDF00A8A581 /* TheoreticalBearing.pdb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TheoreticalBearing.pdb; sourceTree = "<group>"; };
+		BC983CF117498EDF00A8A581 /* TheoreticalBearingImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TheoreticalBearingImage.png; sourceTree = "<group>"; };
+		BC983CF217498EDF00A8A581 /* TheoreticalBearingImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TheoreticalBearingImage@2x.png"; sourceTree = "<group>"; };
+		BC983CFC17498F2900A8A581 /* Insulin.pdb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Insulin.pdb; sourceTree = "<group>"; };
+		BC983CFD17498F2900A8A581 /* InsulinImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InsulinImage.png; sourceTree = "<group>"; };
+		BC983CFE17498F2900A8A581 /* InsulinImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InsulinImage@2x.png"; sourceTree = "<group>"; };
+		BC983CFF17498F2900A8A581 /* Nanotube.pdb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nanotube.pdb; sourceTree = "<group>"; };
+		BC983D0017498F2900A8A581 /* NanotubeImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NanotubeImage.png; sourceTree = "<group>"; };
+		BC983D0117498F2900A8A581 /* NanotubeImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NanotubeImage@2x.png"; sourceTree = "<group>"; };
+		BC983D0E1749C3CA00A8A581 /* LDAtomColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDAtomColorView.h; sourceTree = "<group>"; };
+		BC983D0F1749C3CA00A8A581 /* LDAtomColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDAtomColorView.m; sourceTree = "<group>"; };
+		BC983D1F17553BE300A8A581 /* LDBlackSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDBlackSplitView.h; sourceTree = "<group>"; };
+		BC983D2017553BE300A8A581 /* LDBlackSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDBlackSplitView.m; sourceTree = "<group>"; };
+		BCBF618D16E83DCF00E2784A /* Molecules_LM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Molecules_LM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCBF619016E83DCF00E2784A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BCBF619316E83DCF00E2784A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BCBF619416E83DCF00E2784A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BCBF619516E83DCF00E2784A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCBF619816E83DCF00E2784A /* WDIB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WDIB-Info.plist"; sourceTree = "<group>"; };
+		BCBF619A16E83DCF00E2784A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCBF619C16E83DCF00E2784A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCBF619E16E83DCF00E2784A /* WDIB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WDIB-Prefix.pch"; sourceTree = "<group>"; };
+		BCBF61A216E83DCF00E2784A /* LDMoleculeWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDMoleculeWindowController.h; sourceTree = "<group>"; };
+		BCBF61A316E83DCF00E2784A /* LDMoleculeWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDMoleculeWindowController.m; sourceTree = "<group>"; };
+		BCBF61A616E83DCF00E2784A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LDMoleculeWindowController.xib; sourceTree = "<group>"; };
+		BCBF61A916E83DCF00E2784A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BCBF61B016E83FBF00E2784A /* LDMoleculeGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDMoleculeGLView.h; sourceTree = "<group>"; };
+		BCBF61B116E83FBF00E2784A /* LDMoleculeGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMoleculeGLView.m; sourceTree = "<group>"; };
+		BCC23A3E16F94FCF003EA181 /* LDApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDApplicationDelegate.h; sourceTree = "<group>"; };
+		BCC23A3F16F94FCF003EA181 /* LDApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDApplicationDelegate.m; sourceTree = "<group>"; };
+		BCCF94AF16ED4BE400871775 /* LDMolecule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDMolecule.h; sourceTree = "<group>"; };
+		BCCF94B016ED4BE400871775 /* LDMolecule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMolecule.m; sourceTree = "<group>"; };
+		BCCF94B116ED4BE400871775 /* LDMolecule+PDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LDMolecule+PDB.h"; sourceTree = "<group>"; };
+		BCCF94B216ED4BE400871775 /* LDMolecule+PDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LDMolecule+PDB.m"; sourceTree = "<group>"; };
+		BCCF94B316ED4BE400871775 /* LDMolecule+SDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LDMolecule+SDF.h"; sourceTree = "<group>"; };
+		BCCF94B416ED4BE400871775 /* LDMolecule+SDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LDMolecule+SDF.m"; sourceTree = "<group>"; };
+		BCCF94C616ED603900871775 /* NSData+Gzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Gzip.h"; sourceTree = "<group>"; };
+		BCCF94C716ED603900871775 /* NSData+Gzip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Gzip.m"; sourceTree = "<group>"; };
+		BCCF94C916ED609C00871775 /* VCTitleCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTitleCase.h; sourceTree = "<group>"; };
+		BCCF94CA16ED609C00871775 /* VCTitleCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTitleCase.m; sourceTree = "<group>"; };
+		BCCF94CE16ED6BEB00871775 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		BCCF94D016ED6BFB00871775 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BCCF94D216ED7A9100871775 /* CylinderAmbientOcclusion.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = CylinderAmbientOcclusion.fsh; path = Shaders/CylinderAmbientOcclusion.fsh; sourceTree = "<group>"; };
+		BCCF94D316ED7A9100871775 /* CylinderAmbientOcclusion.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = CylinderAmbientOcclusion.vsh; path = Shaders/CylinderAmbientOcclusion.vsh; sourceTree = "<group>"; };
+		BCCF94D416ED7A9100871775 /* CylinderDepth.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = CylinderDepth.fsh; path = Shaders/CylinderDepth.fsh; sourceTree = "<group>"; };
+		BCCF94D516ED7A9100871775 /* CylinderDepth.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = CylinderDepth.vsh; path = Shaders/CylinderDepth.vsh; sourceTree = "<group>"; };
+		BCCF94D616ED7A9100871775 /* CylinderRaytracing.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = CylinderRaytracing.fsh; path = Shaders/CylinderRaytracing.fsh; sourceTree = "<group>"; };
+		BCCF94D716ED7A9100871775 /* CylinderRaytracing.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = CylinderRaytracing.vsh; path = Shaders/CylinderRaytracing.vsh; sourceTree = "<group>"; };
+		BCCF94D816ED7A9100871775 /* PlainDisplay.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = PlainDisplay.fsh; path = Shaders/PlainDisplay.fsh; sourceTree = "<group>"; };
+		BCCF94D916ED7A9100871775 /* PlainDisplay.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = PlainDisplay.vsh; path = Shaders/PlainDisplay.vsh; sourceTree = "<group>"; };
+		BCCF94DA16ED7A9100871775 /* SphereAmbientOcclusion.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = SphereAmbientOcclusion.fsh; path = Shaders/SphereAmbientOcclusion.fsh; sourceTree = "<group>"; };
+		BCCF94DB16ED7A9100871775 /* SphereAmbientOcclusion.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = SphereAmbientOcclusion.vsh; path = Shaders/SphereAmbientOcclusion.vsh; sourceTree = "<group>"; };
+		BCCF94DC16ED7A9100871775 /* SphereAOLookup.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = SphereAOLookup.fsh; path = Shaders/SphereAOLookup.fsh; sourceTree = "<group>"; };
+		BCCF94DD16ED7A9100871775 /* SphereAOLookup.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = SphereAOLookup.vsh; path = Shaders/SphereAOLookup.vsh; sourceTree = "<group>"; };
+		BCCF94DE16ED7A9100871775 /* SphereDepth.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = SphereDepth.fsh; path = Shaders/SphereDepth.fsh; sourceTree = "<group>"; };
+		BCCF94DF16ED7A9100871775 /* SphereDepth.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = SphereDepth.vsh; path = Shaders/SphereDepth.vsh; sourceTree = "<group>"; };
+		BCCF94E016ED7A9100871775 /* SphereDepthWrite.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = SphereDepthWrite.fsh; path = Shaders/SphereDepthWrite.fsh; sourceTree = "<group>"; };
+		BCCF94E116ED7A9100871775 /* SphereDepthWrite.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = SphereDepthWrite.vsh; path = Shaders/SphereDepthWrite.vsh; sourceTree = "<group>"; };
+		BCCF94E216ED7A9100871775 /* SphereRaytracing.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = SphereRaytracing.fsh; path = Shaders/SphereRaytracing.fsh; sourceTree = "<group>"; };
+		BCCF94E316ED7A9100871775 /* SphereRaytracing.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = SphereRaytracing.vsh; path = Shaders/SphereRaytracing.vsh; sourceTree = "<group>"; };
+		BCCF94FA16EE82E700871775 /* LDOpenGLRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDOpenGLRenderer.h; sourceTree = "<group>"; };
+		BCCF94FB16EE82E700871775 /* LDOpenGLRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDOpenGLRenderer.m; sourceTree = "<group>"; };
+		BCCF94FD16EE839200871775 /* GLProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLProgram.h; sourceTree = "<group>"; };
+		BCCF94FE16EE839200871775 /* GLProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLProgram.m; sourceTree = "<group>"; };
+		BCCF950216EEC7FA00871775 /* MoleculesDesktop.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = MoleculesDesktop.iconset; sourceTree = "<group>"; };
+		BCCF950F16EF7BAB00871775 /* Leap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Leap.h; path = ../../LeapSDK/include/Leap.h; sourceTree = "<group>"; };
+		BCCF951016EF7BAB00871775 /* LeapMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeapMath.h; path = ../../LeapSDK/include/LeapMath.h; sourceTree = "<group>"; };
+		BCCF951116EF7BAB00871775 /* LeapObjectiveC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeapObjectiveC.h; path = ../../LeapSDK/include/LeapObjectiveC.h; sourceTree = "<group>"; };
+		BCCF951216EF7BAB00871775 /* LeapObjectiveC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = LeapObjectiveC.mm; path = ../../LeapSDK/include/LeapObjectiveC.mm; sourceTree = "<group>"; };
+		BCCF951416EF7D1700871775 /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libLeap.dylib; path = ../LeapSDK/lib/libLeap.dylib; sourceTree = "<group>"; };
+		BCDBDE331718C1F100C4C2FA /* CaffeineImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CaffeineImage.png; sourceTree = "<group>"; };
+		BCDBDE341718C1F100C4C2FA /* DNAImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DNAImage.png; sourceTree = "<group>"; };
+		BCDBDE351718C1F100C4C2FA /* PumpImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PumpImage.png; sourceTree = "<group>"; };
+		BCDBDE361718C1F100C4C2FA /* TRNAImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TRNAImage.png; sourceTree = "<group>"; };
+		BCDBDE3B1718C62B00C4C2FA /* Caffeine.pdb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Caffeine.pdb; sourceTree = "<group>"; };
+		BCDBDE3C1718C62B00C4C2FA /* CaffeineImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CaffeineImage@2x.png"; sourceTree = "<group>"; };
+		BCDBDE3D1718C62B00C4C2FA /* DNAImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DNAImage@2x.png"; sourceTree = "<group>"; };
+		BCDBDE3E1718C62B00C4C2FA /* PumpImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PumpImage@2x.png"; sourceTree = "<group>"; };
+		BCDBDE3F1718C62B00C4C2FA /* TheoreticalAtomicPump.pdb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TheoreticalAtomicPump.pdb; sourceTree = "<group>"; };
+		BCDBDE401718C62B00C4C2FA /* TransferRNA.pdb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TransferRNA.pdb; sourceTree = "<group>"; };
+		BCDBDE411718C62B00C4C2FA /* TRNAImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TRNAImage@2x.png"; sourceTree = "<group>"; };
+		BCDBDE491718FB5700C4C2FA /* RoundedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedView.h; sourceTree = "<group>"; };
+		BCDBDE4A1718FB5700C4C2FA /* RoundedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedView.m; sourceTree = "<group>"; };
+		BCDBDE4C171A411E00C4C2FA /* TransparentWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparentWindow.h; sourceTree = "<group>"; };
+		BCDBDE4D171A411F00C4C2FA /* TransparentWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparentWindow.m; sourceTree = "<group>"; };
+		BCDBDE4F171B84ED00C4C2FA /* TutorialRotation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TutorialRotation.pdf; sourceTree = "<group>"; };
+		BCDBDE51171B871E00C4C2FA /* TutorialScaling.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TutorialScaling.pdf; sourceTree = "<group>"; };
+		BCDBDE53171B880600C4C2FA /* TutorialTranslation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TutorialTranslation.pdf; sourceTree = "<group>"; };
+		BCDBDE55171B890600C4C2FA /* TutorialLocking.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TutorialLocking.pdf; sourceTree = "<group>"; };
+		BCDBDE57171CD6FC00C4C2FA /* TutorialMouseRotation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TutorialMouseRotation.pdf; sourceTree = "<group>"; };
+		BCDBDE59171CDD8300C4C2FA /* TutorialMouseScaling.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TutorialMouseScaling.pdf; sourceTree = "<group>"; };
+		BCDBDE5B171CE12E00C4C2FA /* TutorialMouseTranslation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TutorialMouseTranslation.pdf; sourceTree = "<group>"; };
+		BCE7795E16F9453500FFB749 /* LDPreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDPreferencesWindowController.h; sourceTree = "<group>"; };
+		BCE7795F16F9453500FFB749 /* LDPreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDPreferencesWindowController.m; sourceTree = "<group>"; };
+		BCE7796016F9453500FFB749 /* LDPreferencesWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDPreferencesWindowController.xib; sourceTree = "<group>"; };
+		BCFE5DAA1703D0D1004C4EF3 /* MoleculesDocumentIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = MoleculesDocumentIcon.icns; sourceTree = "<group>"; };
+		BCFE5DBE1708CF18004C4EF3 /* DNA.pdb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DNA.pdb; sourceTree = "<group>"; };
+		FB40E09B1A69D47200E6D448 /* UndistortedImageViewWithTips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UndistortedImageViewWithTips.h; sourceTree = "<group>"; };
+		FB40E09C1A69D47200E6D448 /* UndistortedImageViewWithTips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UndistortedImageViewWithTips.m; sourceTree = "<group>"; };
+		FB40E09F1A69D4A500E6D448 /* OpenGLUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLUtil.h; sourceTree = "<group>"; };
+		FB40E0A01A69D4A500E6D448 /* OpenGLUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLUtil.m; sourceTree = "<group>"; };
+		FB40E0A21A69D87F00E6D448 /* fragmentImage.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = fragmentImage.fsh; sourceTree = "<group>"; };
+		FB40E0A31A69D87F00E6D448 /* fragmentTips.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = fragmentTips.fsh; sourceTree = "<group>"; };
+		FB40E0A41A69D87F00E6D448 /* geometryTips.gsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = geometryTips.gsh; sourceTree = "<group>"; };
+		FB40E0A51A69D87F00E6D448 /* vertexImage.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = vertexImage.vsh; sourceTree = "<group>"; };
+		FB40E0A61A69D87F00E6D448 /* vertexTips.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = vertexTips.vsh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCBF618A16E83DCF00E2784A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3D5DC116EF82DC004F2E7B /* libz.dylib in Frameworks */,
+				BCCF94D116ED6BFB00871775 /* QuartzCore.framework in Frameworks */,
+				BCCF94CF16ED6BEB00871775 /* OpenGL.framework in Frameworks */,
+				BCBF619116E83DCF00E2784A /* Cocoa.framework in Frameworks */,
+				BCCF951516EF7D1800871775 /* libLeap.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC0BFB44171E3163008E5D0D /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				BCDBDE4C171A411E00C4C2FA /* TransparentWindow.h */,
+				BCDBDE4D171A411F00C4C2FA /* TransparentWindow.m */,
+				BCDBDE491718FB5700C4C2FA /* RoundedView.h */,
+				BCDBDE4A1718FB5700C4C2FA /* RoundedView.m */,
+			);
+			name = Tutorial;
+			sourceTree = "<group>";
+		};
+		BC56CFF41702A18000CA05BE /* File Formats */ = {
+			isa = PBXGroup;
+			children = (
+				BCCF94B116ED4BE400871775 /* LDMolecule+PDB.h */,
+				BCCF94B216ED4BE400871775 /* LDMolecule+PDB.m */,
+				BCCF94B316ED4BE400871775 /* LDMolecule+SDF.h */,
+				BCCF94B416ED4BE400871775 /* LDMolecule+SDF.m */,
+				BC56CFF01702A12900CA05BE /* LDMolecule+XYZ.h */,
+				BC56CFF11702A12A00CA05BE /* LDMolecule+XYZ.m */,
+				BCCF94C916ED609C00871775 /* VCTitleCase.h */,
+				BCCF94CA16ED609C00871775 /* VCTitleCase.m */,
+				BCCF94C616ED603900871775 /* NSData+Gzip.h */,
+				BCCF94C716ED603900871775 /* NSData+Gzip.m */,
+			);
+			name = "File Formats";
+			sourceTree = "<group>";
+		};
+		BC983D081749C33100A8A581 /* Color Key */ = {
+			isa = PBXGroup;
+			children = (
+				BC983D0E1749C3CA00A8A581 /* LDAtomColorView.h */,
+				BC983D0F1749C3CA00A8A581 /* LDAtomColorView.m */,
+			);
+			name = "Color Key";
+			sourceTree = "<group>";
+		};
+		BCBF618416E83DCF00E2784A = {
+			isa = PBXGroup;
+			children = (
+				BCBF619616E83DCF00E2784A /* Molecules */,
+				BCBF618F16E83DCF00E2784A /* Frameworks */,
+				BCBF618E16E83DCF00E2784A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCBF618E16E83DCF00E2784A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCBF618D16E83DCF00E2784A /* Molecules_LM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCBF618F16E83DCF00E2784A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC3D5DC016EF82DC004F2E7B /* libz.dylib */,
+				BCCF951416EF7D1700871775 /* libLeap.dylib */,
+				BCCF94D016ED6BFB00871775 /* QuartzCore.framework */,
+				BCCF94CE16ED6BEB00871775 /* OpenGL.framework */,
+				BCBF619016E83DCF00E2784A /* Cocoa.framework */,
+				BCBF619216E83DCF00E2784A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCBF619216E83DCF00E2784A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCBF619316E83DCF00E2784A /* AppKit.framework */,
+				BCBF619416E83DCF00E2784A /* CoreData.framework */,
+				BCBF619516E83DCF00E2784A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BCBF619616E83DCF00E2784A /* Molecules */ = {
+			isa = PBXGroup;
+			children = (
+				FB40E09E1A69D49700E6D448 /* Utils */,
+				FB40E09A1A69D45B00E6D448 /* Custom Views */,
+				BC56CFE31701442C00CA05BE /* Molecules.entitlements */,
+				BCBF61B516E83FFF00E2784A /* Main Interface */,
+				BCE7795D16F944CA00FFB749 /* Preferences */,
+				BCBF61B316E83FE500E2784A /* Molecule Window */,
+				BC983D081749C33100A8A581 /* Color Key */,
+				BCCF950E16EF7ADB00871775 /* Leap Motion */,
+				BCBF61B416E83FEE00E2784A /* 3D Molecule Display */,
+				BCFE5DB31707B78A004C4EF3 /* Help */,
+				BCBF619716E83DCF00E2784A /* Supporting Files */,
+			);
+			name = Molecules;
+			path = "Molecules Desktop";
+			sourceTree = "<group>";
+		};
+		BCBF619716E83DCF00E2784A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC0E8B191757B7D200D8511A /* LeapMotionConnected.pdf */,
+				BC0E8B1A1757B7D200D8511A /* LeapMotionDisconnected.pdf */,
+				BC983CFC17498F2900A8A581 /* Insulin.pdb */,
+				BC983CFD17498F2900A8A581 /* InsulinImage.png */,
+				BC983CFE17498F2900A8A581 /* InsulinImage@2x.png */,
+				BC983CFF17498F2900A8A581 /* Nanotube.pdb */,
+				BC983D0017498F2900A8A581 /* NanotubeImage.png */,
+				BC983D0117498F2900A8A581 /* NanotubeImage@2x.png */,
+				BC983CEA17498EDF00A8A581 /* Cholesterol.pdb */,
+				BC983CEB17498EDF00A8A581 /* CholesterolImage.png */,
+				BC983CEC17498EDF00A8A581 /* CholesterolImage@2x.png */,
+				BC983CED17498EDF00A8A581 /* Heme.sdf */,
+				BC983CEE17498EDF00A8A581 /* HemeImage.png */,
+				BC983CEF17498EDF00A8A581 /* HemeImage@2x.png */,
+				BC983CF017498EDF00A8A581 /* TheoreticalBearing.pdb */,
+				BC983CF117498EDF00A8A581 /* TheoreticalBearingImage.png */,
+				BC983CF217498EDF00A8A581 /* TheoreticalBearingImage@2x.png */,
+				BCDBDE5B171CE12E00C4C2FA /* TutorialMouseTranslation.pdf */,
+				BCDBDE59171CDD8300C4C2FA /* TutorialMouseScaling.pdf */,
+				BCDBDE57171CD6FC00C4C2FA /* TutorialMouseRotation.pdf */,
+				BCDBDE55171B890600C4C2FA /* TutorialLocking.pdf */,
+				BCDBDE53171B880600C4C2FA /* TutorialTranslation.pdf */,
+				BCDBDE51171B871E00C4C2FA /* TutorialScaling.pdf */,
+				BCDBDE4F171B84ED00C4C2FA /* TutorialRotation.pdf */,
+				BCDBDE3B1718C62B00C4C2FA /* Caffeine.pdb */,
+				BCDBDE3C1718C62B00C4C2FA /* CaffeineImage@2x.png */,
+				BCDBDE3D1718C62B00C4C2FA /* DNAImage@2x.png */,
+				BCDBDE3E1718C62B00C4C2FA /* PumpImage@2x.png */,
+				BCDBDE3F1718C62B00C4C2FA /* TheoreticalAtomicPump.pdb */,
+				BCDBDE401718C62B00C4C2FA /* TransferRNA.pdb */,
+				BCDBDE411718C62B00C4C2FA /* TRNAImage@2x.png */,
+				BCDBDE331718C1F100C4C2FA /* CaffeineImage.png */,
+				BCDBDE341718C1F100C4C2FA /* DNAImage.png */,
+				BCDBDE351718C1F100C4C2FA /* PumpImage.png */,
+				BCDBDE361718C1F100C4C2FA /* TRNAImage.png */,
+				BCFE5DBE1708CF18004C4EF3 /* DNA.pdb */,
+				BCFE5DAA1703D0D1004C4EF3 /* MoleculesDocumentIcon.icns */,
+				BCCF950216EEC7FA00871775 /* MoleculesDesktop.iconset */,
+				BCBF619816E83DCF00E2784A /* WDIB-Info.plist */,
+				BCBF619916E83DCF00E2784A /* InfoPlist.strings */,
+				BCBF619C16E83DCF00E2784A /* main.m */,
+				BCBF619E16E83DCF00E2784A /* WDIB-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCBF61B316E83FE500E2784A /* Molecule Window */ = {
+			isa = PBXGroup;
+			children = (
+				BCBF61A216E83DCF00E2784A /* LDMoleculeWindowController.h */,
+				BCBF61A316E83DCF00E2784A /* LDMoleculeWindowController.m */,
+				BCBF61A516E83DCF00E2784A /* LDMoleculeWindowController.xib */,
+				BCCF94AF16ED4BE400871775 /* LDMolecule.h */,
+				BCCF94B016ED4BE400871775 /* LDMolecule.m */,
+				BC56CFF41702A18000CA05BE /* File Formats */,
+				BC0BFB44171E3163008E5D0D /* Tutorial */,
+				BCFE5DB2170779DD004C4EF3 /* Overlay Window */,
+				BC67F418171F98B100B5BF5E /* LDDocumentController.h */,
+				BC67F419171F98B100B5BF5E /* LDDocumentController.m */,
+				BC983D1F17553BE300A8A581 /* LDBlackSplitView.h */,
+				BC983D2017553BE300A8A581 /* LDBlackSplitView.m */,
+			);
+			name = "Molecule Window";
+			sourceTree = "<group>";
+		};
+		BCBF61B416E83FEE00E2784A /* 3D Molecule Display */ = {
+			isa = PBXGroup;
+			children = (
+				BCBF61B016E83FBF00E2784A /* LDMoleculeGLView.h */,
+				BCBF61B116E83FBF00E2784A /* LDMoleculeGLView.m */,
+				BCCF94FA16EE82E700871775 /* LDOpenGLRenderer.h */,
+				BCCF94FB16EE82E700871775 /* LDOpenGLRenderer.m */,
+				BCCF94FD16EE839200871775 /* GLProgram.h */,
+				BCCF94FE16EE839200871775 /* GLProgram.m */,
+				BCBF61B616E8408200E2784A /* Shaders */,
+			);
+			name = "3D Molecule Display";
+			sourceTree = "<group>";
+		};
+		BCBF61B516E83FFF00E2784A /* Main Interface */ = {
+			isa = PBXGroup;
+			children = (
+				BCBF61A816E83DCF00E2784A /* MainMenu.xib */,
+				BCC23A3E16F94FCF003EA181 /* LDApplicationDelegate.h */,
+				BCC23A3F16F94FCF003EA181 /* LDApplicationDelegate.m */,
+			);
+			name = "Main Interface";
+			sourceTree = "<group>";
+		};
+		BCBF61B616E8408200E2784A /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				FB40E0A21A69D87F00E6D448 /* fragmentImage.fsh */,
+				FB40E0A31A69D87F00E6D448 /* fragmentTips.fsh */,
+				FB40E0A41A69D87F00E6D448 /* geometryTips.gsh */,
+				FB40E0A51A69D87F00E6D448 /* vertexImage.vsh */,
+				FB40E0A61A69D87F00E6D448 /* vertexTips.vsh */,
+				BCCF94D216ED7A9100871775 /* CylinderAmbientOcclusion.fsh */,
+				BCCF94D316ED7A9100871775 /* CylinderAmbientOcclusion.vsh */,
+				BCCF94D416ED7A9100871775 /* CylinderDepth.fsh */,
+				BCCF94D516ED7A9100871775 /* CylinderDepth.vsh */,
+				BCCF94D616ED7A9100871775 /* CylinderRaytracing.fsh */,
+				BCCF94D716ED7A9100871775 /* CylinderRaytracing.vsh */,
+				BCCF94D816ED7A9100871775 /* PlainDisplay.fsh */,
+				BCCF94D916ED7A9100871775 /* PlainDisplay.vsh */,
+				BCCF94DA16ED7A9100871775 /* SphereAmbientOcclusion.fsh */,
+				BCCF94DB16ED7A9100871775 /* SphereAmbientOcclusion.vsh */,
+				BCCF94DC16ED7A9100871775 /* SphereAOLookup.fsh */,
+				BCCF94DD16ED7A9100871775 /* SphereAOLookup.vsh */,
+				BCCF94DE16ED7A9100871775 /* SphereDepth.fsh */,
+				BCCF94DF16ED7A9100871775 /* SphereDepth.vsh */,
+				BCCF94E016ED7A9100871775 /* SphereDepthWrite.fsh */,
+				BCCF94E116ED7A9100871775 /* SphereDepthWrite.vsh */,
+				BCCF94E216ED7A9100871775 /* SphereRaytracing.fsh */,
+				BCCF94E316ED7A9100871775 /* SphereRaytracing.vsh */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		BCCF950E16EF7ADB00871775 /* Leap Motion */ = {
+			isa = PBXGroup;
+			children = (
+				BCCF950F16EF7BAB00871775 /* Leap.h */,
+				BCCF951016EF7BAB00871775 /* LeapMath.h */,
+				BCCF951116EF7BAB00871775 /* LeapObjectiveC.h */,
+				BCCF951216EF7BAB00871775 /* LeapObjectiveC.mm */,
+			);
+			name = "Leap Motion";
+			sourceTree = "<group>";
+		};
+		BCE7795D16F944CA00FFB749 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				BCE7795E16F9453500FFB749 /* LDPreferencesWindowController.h */,
+				BCE7795F16F9453500FFB749 /* LDPreferencesWindowController.m */,
+				BCE7796016F9453500FFB749 /* LDPreferencesWindowController.xib */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		BCFE5DB2170779DD004C4EF3 /* Overlay Window */ = {
+			isa = PBXGroup;
+			children = (
+				BC56CFE4170149FD00CA05BE /* LDMoleculeOverlayWindowController.h */,
+				BC56CFE5170149FD00CA05BE /* LDMoleculeOverlayWindowController.m */,
+				BC56CFE6170149FD00CA05BE /* LDMoleculeOverlayWindowController.xib */,
+				BC56CFE9170150B300CA05BE /* LDTransparentWindow.h */,
+				BC56CFEA170150B300CA05BE /* LDSTransparentWindow.m */,
+			);
+			name = "Overlay Window";
+			sourceTree = "<group>";
+		};
+		BCFE5DB31707B78A004C4EF3 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Help;
+			sourceTree = "<group>";
+		};
+		FB40E09A1A69D45B00E6D448 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB40E09B1A69D47200E6D448 /* UndistortedImageViewWithTips.h */,
+				FB40E09C1A69D47200E6D448 /* UndistortedImageViewWithTips.m */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		FB40E09E1A69D49700E6D448 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FB40E09F1A69D4A500E6D448 /* OpenGLUtil.h */,
+				FB40E0A01A69D4A500E6D448 /* OpenGLUtil.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCBF618C16E83DCF00E2784A /* Molecules_LM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCBF61AD16E83DCF00E2784A /* Build configuration list for PBXNativeTarget "Molecules_LM" */;
+			buildPhases = (
+				BCBF618916E83DCF00E2784A /* Sources */,
+				BCBF618A16E83DCF00E2784A /* Frameworks */,
+				BCBF618B16E83DCF00E2784A /* Resources */,
+				BCCF951716EF7E5A00871775 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Molecules_LM;
+			productName = "Molecules Desktop";
+			productReference = BCBF618D16E83DCF00E2784A /* Molecules_LM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCBF618516E83DCF00E2784A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SLS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Sunset Lake Software LLC";
+			};
+			buildConfigurationList = BCBF618816E83DCF00E2784A /* Build configuration list for PBXProject "WDIB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCBF618416E83DCF00E2784A;
+			productRefGroup = BCBF618E16E83DCF00E2784A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCBF618C16E83DCF00E2784A /* Molecules_LM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCBF618B16E83DCF00E2784A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCF951616EF7DF600871775 /* libLeap.dylib in Resources */,
+				BCBF619B16E83DCF00E2784A /* InfoPlist.strings in Resources */,
+				BCBF61A716E83DCF00E2784A /* LDMoleculeWindowController.xib in Resources */,
+				FB40E0A91A69D87F00E6D448 /* geometryTips.gsh in Resources */,
+				BCBF61AA16E83DCF00E2784A /* MainMenu.xib in Resources */,
+				BCCF94E416ED7A9100871775 /* CylinderAmbientOcclusion.fsh in Resources */,
+				BCCF94E516ED7A9100871775 /* CylinderAmbientOcclusion.vsh in Resources */,
+				BCCF94E616ED7A9100871775 /* CylinderDepth.fsh in Resources */,
+				BCCF94E716ED7A9100871775 /* CylinderDepth.vsh in Resources */,
+				BCCF94E816ED7A9100871775 /* CylinderRaytracing.fsh in Resources */,
+				BCCF94E916ED7A9100871775 /* CylinderRaytracing.vsh in Resources */,
+				BCCF94EA16ED7A9100871775 /* PlainDisplay.fsh in Resources */,
+				BCCF94EB16ED7A9100871775 /* PlainDisplay.vsh in Resources */,
+				BCCF94EC16ED7A9100871775 /* SphereAmbientOcclusion.fsh in Resources */,
+				BCCF94ED16ED7A9100871775 /* SphereAmbientOcclusion.vsh in Resources */,
+				BCCF94EE16ED7A9100871775 /* SphereAOLookup.fsh in Resources */,
+				BCCF94EF16ED7A9100871775 /* SphereAOLookup.vsh in Resources */,
+				BCCF94F016ED7A9100871775 /* SphereDepth.fsh in Resources */,
+				BCCF94F116ED7A9100871775 /* SphereDepth.vsh in Resources */,
+				BCCF94F216ED7A9100871775 /* SphereDepthWrite.fsh in Resources */,
+				BCCF94F316ED7A9100871775 /* SphereDepthWrite.vsh in Resources */,
+				BCCF94F416ED7A9100871775 /* SphereRaytracing.fsh in Resources */,
+				BCCF94F516ED7A9100871775 /* SphereRaytracing.vsh in Resources */,
+				BCCF950316EEC7FA00871775 /* MoleculesDesktop.iconset in Resources */,
+				BCE7796216F9453500FFB749 /* LDPreferencesWindowController.xib in Resources */,
+				BC56CFE8170149FD00CA05BE /* LDMoleculeOverlayWindowController.xib in Resources */,
+				BCFE5DAB1703D0D1004C4EF3 /* MoleculesDocumentIcon.icns in Resources */,
+				BCFE5DBF1708CF18004C4EF3 /* DNA.pdb in Resources */,
+				BCDBDE371718C1F100C4C2FA /* CaffeineImage.png in Resources */,
+				BCDBDE381718C1F100C4C2FA /* DNAImage.png in Resources */,
+				BCDBDE391718C1F100C4C2FA /* PumpImage.png in Resources */,
+				BCDBDE3A1718C1F100C4C2FA /* TRNAImage.png in Resources */,
+				BCDBDE421718C62B00C4C2FA /* Caffeine.pdb in Resources */,
+				BCDBDE431718C62B00C4C2FA /* CaffeineImage@2x.png in Resources */,
+				BCDBDE441718C62B00C4C2FA /* DNAImage@2x.png in Resources */,
+				BCDBDE451718C62B00C4C2FA /* PumpImage@2x.png in Resources */,
+				BCDBDE461718C62B00C4C2FA /* TheoreticalAtomicPump.pdb in Resources */,
+				BCDBDE471718C62B00C4C2FA /* TransferRNA.pdb in Resources */,
+				BCDBDE481718C62B00C4C2FA /* TRNAImage@2x.png in Resources */,
+				BCDBDE50171B84ED00C4C2FA /* TutorialRotation.pdf in Resources */,
+				BCDBDE52171B871E00C4C2FA /* TutorialScaling.pdf in Resources */,
+				BCDBDE54171B880600C4C2FA /* TutorialTranslation.pdf in Resources */,
+				BCDBDE56171B890600C4C2FA /* TutorialLocking.pdf in Resources */,
+				BCDBDE58171CD6FC00C4C2FA /* TutorialMouseRotation.pdf in Resources */,
+				BCDBDE5A171CDD8300C4C2FA /* TutorialMouseScaling.pdf in Resources */,
+				BCDBDE5C171CE12E00C4C2FA /* TutorialMouseTranslation.pdf in Resources */,
+				BC983CF317498EDF00A8A581 /* Cholesterol.pdb in Resources */,
+				BC983CF417498EDF00A8A581 /* CholesterolImage.png in Resources */,
+				BC983CF517498EDF00A8A581 /* CholesterolImage@2x.png in Resources */,
+				BC983CF617498EDF00A8A581 /* Heme.sdf in Resources */,
+				FB40E0A81A69D87F00E6D448 /* fragmentTips.fsh in Resources */,
+				FB40E0A71A69D87F00E6D448 /* fragmentImage.fsh in Resources */,
+				BC983CF717498EDF00A8A581 /* HemeImage.png in Resources */,
+				FB40E0AB1A69D87F00E6D448 /* vertexTips.vsh in Resources */,
+				FB40E0AA1A69D87F00E6D448 /* vertexImage.vsh in Resources */,
+				BC983CF817498EDF00A8A581 /* HemeImage@2x.png in Resources */,
+				BC983CF917498EDF00A8A581 /* TheoreticalBearing.pdb in Resources */,
+				BC983CFA17498EDF00A8A581 /* TheoreticalBearingImage.png in Resources */,
+				BC983CFB17498EDF00A8A581 /* TheoreticalBearingImage@2x.png in Resources */,
+				BC983D0217498F2900A8A581 /* Insulin.pdb in Resources */,
+				BC983D0317498F2900A8A581 /* InsulinImage.png in Resources */,
+				BC983D0417498F2900A8A581 /* InsulinImage@2x.png in Resources */,
+				BC983D0517498F2900A8A581 /* Nanotube.pdb in Resources */,
+				BC983D0617498F2900A8A581 /* NanotubeImage.png in Resources */,
+				BC983D0717498F2900A8A581 /* NanotubeImage@2x.png in Resources */,
+				BC0E8B1B1757B7D200D8511A /* LeapMotionConnected.pdf in Resources */,
+				BC0E8B1C1757B7D200D8511A /* LeapMotionDisconnected.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BCCF951716EF7E5A00871775 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# print some debug information\necho TARGET_BUILD_DIR=${TARGET_BUILD_DIR}\necho TARGET_NAME=${TARGET_NAME}\ncd \"${TARGET_BUILD_DIR}/${TARGET_NAME}.app/Contents/MacOS\"\nls -la\n# then remap the loader path\ninstall_name_tool -change @loader_path/libLeap.dylib @executable_path/../Resources/libLeap.dylib \"${TARGET_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCBF618916E83DCF00E2784A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCBF619D16E83DCF00E2784A /* main.m in Sources */,
+				BCBF61A416E83DCF00E2784A /* LDMoleculeWindowController.m in Sources */,
+				BCBF61B216E83FBF00E2784A /* LDMoleculeGLView.m in Sources */,
+				BCCF94B516ED4BE400871775 /* LDMolecule.m in Sources */,
+				BCCF94B616ED4BE400871775 /* LDMolecule+PDB.m in Sources */,
+				FB40E0A11A69D4A500E6D448 /* OpenGLUtil.m in Sources */,
+				BCCF94B716ED4BE400871775 /* LDMolecule+SDF.m in Sources */,
+				BCCF94C816ED603900871775 /* NSData+Gzip.m in Sources */,
+				BCCF94CB16ED609D00871775 /* VCTitleCase.m in Sources */,
+				BCCF94FC16EE82E700871775 /* LDOpenGLRenderer.m in Sources */,
+				BCCF94FF16EE839200871775 /* GLProgram.m in Sources */,
+				BC3D5DC216EF8342004F2E7B /* LeapObjectiveC.mm in Sources */,
+				BCE7796116F9453500FFB749 /* LDPreferencesWindowController.m in Sources */,
+				BCC23A4016F94FCF003EA181 /* LDApplicationDelegate.m in Sources */,
+				BC56CFE7170149FD00CA05BE /* LDMoleculeOverlayWindowController.m in Sources */,
+				BC56CFEB170150B300CA05BE /* LDSTransparentWindow.m in Sources */,
+				BC56CFF21702A12A00CA05BE /* LDMolecule+XYZ.m in Sources */,
+				FB40E09D1A69D47200E6D448 /* UndistortedImageViewWithTips.m in Sources */,
+				BCDBDE4B1718FB5700C4C2FA /* RoundedView.m in Sources */,
+				BCDBDE4E171A411F00C4C2FA /* TransparentWindow.m in Sources */,
+				BC67F41A171F98B100B5BF5E /* LDDocumentController.m in Sources */,
+				BC983D101749C3CA00A8A581 /* LDAtomColorView.m in Sources */,
+				BC983D2117553BE400A8A581 /* LDBlackSplitView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCBF619916E83DCF00E2784A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCBF619A16E83DCF00E2784A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BCBF61A516E83DCF00E2784A /* LDMoleculeWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCBF61A616E83DCF00E2784A /* en */,
+			);
+			name = LDMoleculeWindowController.xib;
+			sourceTree = "<group>";
+		};
+		BCBF61A816E83DCF00E2784A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCBF61A916E83DCF00E2784A /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCBF61AB16E83DCF00E2784A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BCBF61AC16E83DCF00E2784A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = "";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BCBF61AE16E83DCF00E2784A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Molecules.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Molecules Desktop/WDIB-Prefix.pch";
+				INFOPLIST_FILE = "Molecules Desktop/WDIB-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../LeapSDK/lib\"",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = Molecules_LM;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BCBF61AF16E83DCF00E2784A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Molecules.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Molecules Desktop/WDIB-Prefix.pch";
+				INFOPLIST_FILE = "Molecules Desktop/WDIB-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../LeapSDK/lib\"",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = Molecules_LM;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCBF618816E83DCF00E2784A /* Build configuration list for PBXProject "WDIB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCBF61AB16E83DCF00E2784A /* Debug */,
+				BCBF61AC16E83DCF00E2784A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCBF61AD16E83DCF00E2784A /* Build configuration list for PBXNativeTarget "Molecules_LM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCBF61AE16E83DCF00E2784A /* Debug */,
+				BCBF61AF16E83DCF00E2784A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCBF618516E83DCF00E2784A /* Project object */;
+}
